@@ -1,4 +1,8 @@
-// import img from '/src/assets/projects/baptism.jpg'
+import project1 from '/src/assets/projects/project1.png'
+import project2 from '/src/assets/projects/project2.png'
+import project3 from '/src/assets/projects/project3.png'
+import project4 from '/src/assets/projects/project4.png'
+
 
 export interface Project {
   id: number;
@@ -15,7 +19,7 @@ export const projects: Project[] = [
     id: 1,
     title: 'All Christian Fellowship Webiste',
     description: 'Church Webiste with event updates, sermons, donation system e.t.c.',
-    image: '/src/assets/projects/project1.png',
+    image: project1,
     github: 'https://github.com/paleotommytechy/accfikolewebsite',
     demo: 'https://accfikolewebsite.vercel.app',
     tech: ['React','Bootstrap', 'Vercel', 'Git', 'GitHub', 'firebase'],
@@ -24,7 +28,7 @@ export const projects: Project[] = [
     id: 2,
     title: 'Jilem - Ministry website',
     description: 'Responsive ministry platform for media sharing and spiritual resources.',
-    image: '/src/assets/projects/project2.png',
+    image: project2,
     github: 'https://github.com/paleotommytechy/jilem',
     demo: 'https://jilem.vercel.app',
     tech: ['React', 'Bootstrap','Vercel', 'Git', 'GitHub', 'firebase'],
@@ -33,7 +37,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Tommytech Store',
     description: 'E-commerce web app for gadgets, tech tools, and developer kit.',
-    image: '/src/assets/projects/project4.png',
+    image: project4,
     github: 'https://github.com/paleotommytechy/codealpha_tasks',
     demo: 'https://tommytech-store.onrender.com/',
     tech: ['Django', 'Bootstrap','Render', 'Git', 'GitHub'],
@@ -42,7 +46,7 @@ export const projects: Project[] = [
     id: 4,
     title: 'Tommify - Social Web App',
     description: 'Faith-based social app for post, discussion, and spiritual growth.',
-    image: '/src/assets/projects/project3.png',
+    image: project3,
     github: 'https://github.com/paleotommytechy/tommify',
     demo: 'https://tommify.onrender.com',
     tech: ['Django', 'Bootstrap','Render', 'Git', 'GitHub'],
